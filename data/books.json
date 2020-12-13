@@ -1,0 +1,38 @@
+[
+    {
+        "word": "aal",
+        "nagari": "\u0906\u0932",
+        "description": "a weed",
+        "category": "plant"
+    },
+    {
+        "word": "abayu",
+        "nagari": "\u0906\u092c\u092f\u0941",
+        "description": "the mustard plant",
+        "category": "plant"
+    },
+    {
+        "word": "abhijit",
+        "nagari": "\u0905\u092d\u093f\u091c\u093f\u0924",
+        "description": "alpha Lyrae",
+        "category": "astronomy"
+    },
+    {
+        "word": "abhiprashnin",
+        "nagari": "\u0905\u092d\u093f\u092a\u094d\u0930\u0936\u094d\u0928\u093f\u0928",
+        "description": "defendant, mentioned in the list of victims of purushmedh (human sacrifice)",
+        "category": "law"
+    },
+    {
+        "word": "adambar",
+        "nagari": "\u0906\u0921\u092e\u094d\u092c\u0930",
+        "description": "drum",
+        "category": "music"
+    },
+    {
+        "word": "apachit",
+        "nagari": "\u0905\u092a\u091a\u093f\u0924",
+        "description": "scrofulous swellings",
+        "category": "disease"
+    }
+]

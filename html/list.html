@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <script defer src="../js/list.js"></script>
+</head>
+
+<body>
+    <section>
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="../index.html" class="logo">Booklist</a>
+            <!--menu-->
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="list.html" class="active">List</a></li>
+            </ul>
+        </nav>
+        <!--text & tables-------------------------------->
+        <div class="text-container">
+            <p id="books">Click on the button below to get a List of Books</p>
+            <p style="font-size: 8px; font-family: 'Courier New', Courier, monospace;">This List was provided from the following API: "https://aninditabasu.github.io/indica/html/vs.html"</p>
+            <button class="list-btn" onclick="loadDoc()">Load Data</button>
+            <br>
+            <br>
+        </div>
+        <div class="table-container">
+            <div class="table-size">
+                <h4>List of Books</h4>
+                    <table id="t01" class="table">
+                        <tr>
+                            <th>Word</th>
+                            <th>Nagari</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Select</th>
+                        </tr>
+                      </table>
+                <br>
+                <button type="addfav" onclick="tab1_To_tab2();">Add to Favorites</button>
+            </div>
+            <div class="table-size">
+                <h4>List of Favorite Books</h4>
+                    <table id="t02" class="table">
+                        <tr>
+                            <th>Word</th>
+                            <th>Nagari</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Select</th>
+                        </tr>
+                      </table>
+                      <br>
+                      <button type="removefav" onclick="tab2_To_tab1();">Remove from Favorites</button>
+            </div>
+        </div>
+    </section> 
+ </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/about.css">
+    <script defer src="../js/about.js"></script>
+</head>
+
+<body>
+    <section>
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="../index.html" class="logo">Booklist</a>
+            <!--menu-->
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="list.html">List</a></li>
+            </ul>
+        </nav>
+        <div class="about-section">
+            <h1>About Us</h1>
+            <p>We ware a Company that makes Lists for Books</p>
+            <p>Resize the browser window to see that this page is responsive by the way.</p>
+          </div>
+          
+          <h2 style="text-align:center">Our Team</h2>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="../images/team1.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                  <h2>Mark Doe</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>jane@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="../images/team2.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                  <h2>Jane Ross</h2>
+                  <p class="title">Art Director</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>mike@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="../images/team3.jpg" alt="John" style="width:100%">
+                <div class="container">
+                  <h2>John Tiller</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>john@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--form----------------------------------->
+        <div id="error" class="container-form">
+            <h2 style="text-align:center">Contact Us</h2>
+              <form onsubmit="return false" action="/" method="GET">
+                <div class="inline-form">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="firstName" placeholder="Your name.." required>
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lastName" placeholder="Your last name.." required>
+                </div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Your Email.." required>
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="austria">Austria</option>
+                    <option value="germany">Germany</option>
+                    <option value="switzerland">Switzerland</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  <button onclick="sendContact();" type="submit">Send</button>
+              </form>
+
+
+          </div>
+    </section> 
+ </body>

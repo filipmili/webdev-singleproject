@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+.text-container{
+	position: absolute;
+	left: 20%;
+	top: 20%;
+	transform: translate(-13%, -42%);
+}
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+.list-btn{
+  background-color: #272727;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.list-btn:hover{
+  background-color: #017ef3;
+}
+
+.text-container p:nth-child(1){
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: lighter;
+	color: #111111;
+	font-size: 16px;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    display: inline-block;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  #t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  #t01 th {
+    background-color: black;
+    color: white;
+  }
+  #t02 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t02 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  #t02 th {
+    background-color: black;
+    color: white;
+  }
+  .table-container {
+    margin-left:-5px;
+    margin-right:-5px;
+    height: 70%;
+    margin-top: 200px;
+    margin-left: 10%;
+    overflow-x: auto;
+  }
+  .table-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .table-size {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    /* When moving the mouse over the submit button, add a darker green color */
+  button[type=addfav]:hover {
+    background-color: #017ef3;
+  }
+  button[type=addfav] {
+    background-color: #272727;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  button[type=removefav]:hover {
+    background-color: #017ef3;
+  }
+  button[type=removefav] {
+    background-color: #272727;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  h4 {
+    font-family: sans-serif;
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
+@media screen and (max-width: 600px) {
+  .table-container {
+    width: 100%;
+  }
+}
